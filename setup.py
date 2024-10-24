@@ -15,10 +15,10 @@ def get_requirements() ->List[str]:
     return requirement_list
 
 setup(
-    name = "flipkart",
+    name = "Flipkart",
     version= "0.0.1",
-    author="Dhruv-Saxena",
-    author_email="dhruvsaxena.uk@gmail.com",
+    author="Abhishek Mast",
+    author_email="abhishekmastamardi@gmail.com",
     packages=find_packages(),
     install_requires=get_requirements()
 )
